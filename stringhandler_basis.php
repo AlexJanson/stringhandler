@@ -25,8 +25,8 @@
 			<form method="GET" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 				<fieldset>
 				 <legend>Zet hier jouw naam + klas</legend>
-				 <input type = "text" name = "input1"  placeholder = "string 1"><br>
-				 <input type = "text" name = "input2"   placeholder = " string 2">
+				 <input type = "text" name = "input1"  placeholder = "string 1" value="<?php echo $input1 ?>"><br>
+				 <input type = "text" name = "input2"   placeholder = " string 2" value="<?php echo $input2 ?>">
 				 <input type = "submit"  id = "submit" name = "submit" value = "submit">
 			 </fieldset>
 			</form>
